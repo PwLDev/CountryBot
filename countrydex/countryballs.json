@@ -1,0 +1,368 @@
+{
+    "countryballs": [
+        {
+            "names": ["lucela"],
+            "renderedName": "Lucela",
+            "defaultHp": 598,
+            "defaultAtk": 211,
+            "emoji": "<:LA:1099836130821677089>"
+        },
+        {
+            "names": ["lightball"],
+            "renderedName": "Lightball",
+            "defaultHp": 430,
+            "defaultAtk": 900,
+            "emoji": "<:LT:1099838712914907167>"
+        },
+        {
+            "names": ["rash", "warsdep"],
+            "renderedName": "Warsdep",
+            "defaultHp": 823,
+            "defaultAtk": 788,
+            "emoji": "<:RH:1099835372529270794>"
+        },
+        {
+            "names": ["wayane"],
+            "renderedName": "Wayane",
+            "defaultHp": 460,
+            "defaultAtk": 161,
+            "emoji": "<:WE:1099820497748893849>"
+        },
+        {
+            "names": ["croxxed"],
+            "renderedName": "CroxxeD",
+            "defaultHp": 870,
+            "defaultAtk": 260,
+            "emoji": "<:CD:1099840313092231208>"
+        },
+        {
+            "names": ["ipadsher", "ipad"],
+            "renderedName": "Ipadsher",
+            "defaultHp": 764,
+            "defaultAtk": 1024,
+            "emoji": "<:IS:1099841858114433095>"
+        },
+        {
+            "names": ["dernix", "turquianeon"],
+            "renderedName": "Dernix",
+            "defaultHp": 680,
+            "defaultAtk": 280,
+            "emoji": "<:DX:1099821080119623830>"
+        },
+        {
+            "names": ["stelarball", "stelar", "okark"],
+            "renderedName": "Stelarball",
+            "defaultHp": 800,
+            "defaultAtk": 600,
+            "emoji": "<:SB:1099838016295555083>"
+        },
+        {
+            "names": ["mariana", "mar"],
+            "renderedName": "Mariana",
+            "defaultHp": 2900,
+            "defaultAtk": 1100,
+            "emoji": "<:MA:1127407162361122946>"
+        },
+        {
+            "names": ["argball", "arg", "argpelota"],
+            "renderedName": "Argball",
+            "defaultHp": 6550,
+            "defaultAtk": 4500,
+            "emoji": "<:AR:1127601582549241898>"
+        },
+        {
+            "names": ["pinguinball", "pingu", "pinguino"],
+            "renderedName": "PinguinBall",
+            "defaultHp": 600,
+            "defaultAtk": 200,
+            "emoji": "<:PB:1127694110854234233>"
+        },
+        {
+            "names": ["alent", "ale", "alkenia"],
+            "renderedName": "Alen't",
+            "defaultHp": 5725,
+            "defaultAtk": 8960,
+            "emoji": "<:AT:1099843905803010078>"
+        },
+        {
+            "names": ["srlatamball", "latamball"],
+            "renderedName": "Sr.Latamball",
+            "defaultHp": 762,
+            "defaultAtk": 204,
+            "emoji": "<:SL:1099839644083949578>"
+        },
+        {
+            "names": ["conosur", "cono"],
+            "renderedName": "Cono Sur",
+            "defaultHp": 1950,
+            "defaultAtk": 3830,
+            "emoji": "<:CS:1099841298288099408>"
+        },
+        {
+            "names": ["argentinagaucho", "gaucho", "argentina"],
+            "renderedName": "Argentina Gaucho",
+            "defaultHp": 2000,
+            "defaultAtk": 1230,
+            "emoji": "<:AG:1099839278642630726>"
+        },
+        {
+            "names": ["libano", "lebanon"],
+            "renderedName": "Líbano",
+            "defaultHp": 9999,
+            "defaultAtk": 9999,
+            "emoji": "<:LB:1099844777668780155>"
+        },
+        {
+            "names": ["luimex"],
+            "renderedName": "Luimex",
+            "defaultHp": 300,
+            "defaultAtk": 400,
+            "emoji": "<:LM:1099836960564056065>"
+        },
+        {
+            "names": ["countrybot"],
+            "renderedName": "CountryBot",
+            "defaultHp": 1500,
+            "defaultAtk": 320,
+            "emoji": "<:CB:1099837237266497606>"
+        },
+        {
+            "names": ["sabouti", "djibouti", "yibuti"],
+            "renderedName": "Sabouti",
+            "defaultHp": 1450,
+            "defaultAtk": 575,
+            "emoji": "<:DJ:1099845124411891742>"
+        },
+        {
+            "names": ["leguiblen", "legumbre", "legui", "lego"],
+            "renderedName": "Leguiblen",
+            "defaultHp": 1500,
+            "defaultAtk": 800,
+            "emoji": "<:LG:1100188973600616461>"
+        },
+        {
+            "names": ["imperiobolivarino", "bolivarino", "venezuela", "venezuelapremium"],
+            "renderedName": "Imperio Bolivarino",
+            "defaultHp": 360,
+            "defaultAtk": 180,
+            "emoji": "<:VN:1124467047292739715>"
+        },
+        {
+            "names": ["yestern"],
+            "renderedName": "Yestern",
+            "defaultHp": 125,
+            "defaultAtk": 350,
+            "emoji": "<:YS:1100188949412053002>"
+        },
+        {
+                "names": ["banano", "bananoPro"],
+                "renderedName": "Banano",
+                "defaultHp": 700,
+                "defaultAtk": 450,
+                "emoji": "<:BA:1126356575431430144>"
+        },
+        {
+            "names": ["argex"],
+            "renderedName": "Argex",
+            "defaultHp": 1089,
+            "defaultAtk": 3078,
+            "emoji": "<:AX:1100188914595135590>"
+        },
+        {
+            "names": ["trigo"],
+            "renderedName": "Trigo",
+            "defaultHp": 915,
+            "defaultAtk": 682,
+            "emoji": "<:TG:1101643098519507094>"
+        },
+        {
+            "names": ["bastianero", "bastian", "guatemala"],
+            "renderedName": "Bastianero",
+            "defaultHp": 3000,
+            "defaultAtk": 3500,
+            "emoji": "<:BN:1100973786880286721>"
+        },
+        {
+            "names": ["sell", "sirsell"],
+            "renderedName": "Sell",
+            "defaultHp": 800,
+            "defaultAtk": 655,
+            "emoji": "<:SS:1099846064464482404>"
+        },
+        {
+            "names": ["tunezball", "tunez"],
+            "renderedName": "Túnezball",
+            "defaultHp": 3027,
+            "defaultAtk": 1456,
+            "emoji": "<:TB:1107460930792607834>"
+        },
+        {
+            "names": ["teshokoki"],
+            "renderedName": "Teshokoki",
+            "defaultHp": 2780,
+            "defaultAtk": 3072,
+            "emoji": "<:TS:1107460975352873010>"
+        },
+        {
+            "names": ["naicrak"],
+            "renderedName": "Naicrak",
+            "defaultHp": 1500,
+            "defaultAtk": 100,
+            "emoji": "<:NK:1127127833978863627>"
+        },
+        {
+            "names": ["tako", "eltako", "eltako123"],
+            "renderedName": "Tako",
+            "defaultHp": 1400,
+            "defaultAtk": 450,
+            "emoji": "<:TK:1107460885028536320>"
+        },
+        {
+            "names": ["jaun"],
+            "renderedName": "JAUN",
+            "defaultHp": 567,
+            "defaultAtk": 893,
+            "emoji": "<:JA:1107460848399695882>"
+        },
+        {
+            "names": ["tercerimperiomexicano", "3erimperiomexicano", "imperiomexicano", "mexico"],
+            "renderedName": "Tercer Imperio Mexicano",
+            "defaultHp": 672,
+            "defaultAtk": 541,
+            "emoji": "<:TM:1099851584340508762>"
+        },
+        {
+            "names": ["link"],
+            "renderedName": "Link",
+            "defaultHp": 350,
+            "defaultAtk": 257,
+            "emoji": "<:LN:1099852867113857097>"
+        },
+        {
+            "names": ["leon", "reinodeleon"],
+            "renderedName": "León",
+            "defaultHp": 200,
+            "defaultAtk": 1000,
+            "emoji": "<:LE:1124465323588984952>"
+        },
+        {
+            "names": ["albonoland", "albono", "abono"],
+            "renderedName": "Albonoland",
+            "defaultHp": 300,
+            "defaultAtk": 770,
+            "emoji": "<:AL:1124465230949392515>"
+        },
+        {
+            "names": ["valen", "valentin"],
+            "renderedName": "Valen",
+            "defaultHp": 500,
+            "defaultAtk": 920,
+            "emoji": "<:VA:1124465274813415455>"
+        },
+        {
+            "names": ["c4rf0rt", "carfort", "c4"],
+            "renderedName": "C4rf0rt",
+            "defaultHp": 2310,
+            "defaultAtk": 3500,
+            "emoji": "<:C4:1110682111049990255>"
+        },
+        {
+            "names": ["costaricasovietico", "costarica"],
+            "renderedName": "Costa Rica Soviético",
+            "defaultHp": 5400,
+            "defaultAtk": 3800,
+            "emoji": "<:CR:1126355696225628190>"
+        },
+        {
+            "names": ["pwl","pedobleuele","peuwele"],
+            "renderedName": "PwL",
+            "defaultHp": 400,
+            "defaultAtk": 800,
+            "emoji": "<:PW:1126355758280364033>"
+        },
+        {
+            "names": ["emi"],
+            "renderedName": "Emi",
+            "defaultHp": 4629,
+            "defaultAtk": 1023,
+            "emoji": "<:EM:1126355680010440825>"
+        },
+        {
+            "names": ["bobiblox", "bobi"],
+            "renderedName": "Bobiblox",
+            "defaultHp": 109,
+            "defaultAtk": 80,
+            "emoji": "<:BX:1126356982572527666>"
+        },
+        {
+            "names": ["tobi", "srzorro", "perro"],
+            "renderedName": "Tobi",
+            "defaultHp": 100,
+            "defaultAtk": 50,
+            "emoji": "<:TO:1126356710207008849>"
+        },
+        {
+            "names": ["lauti"],
+            "renderedName": "Lauti",
+            "defaultHp": 1578,
+            "defaultAtk": 1242,
+            "emoji": "<:LU:1126356650375258112>"
+        },
+        {
+            "names": ["gomana"],
+            "renderedName": "Gomana",
+            "defaultHp": 300,
+            "defaultAtk": 160,
+            "emoji": "<:GM:1126356561967710299>"
+        },
+        {
+            "names": ["sansbrawl", "sans"],
+            "renderedName": "SansBrawl",
+            "defaultHp": 1950,
+            "defaultAtk": 500,
+            "emoji": "<:SW:1126356484163379280>"
+        },
+        {
+            "names": ["mrimperial"],
+            "renderedName": "Mr.Imperial",
+            "defaultHp": 5690,
+            "defaultAtk": 6890,
+            "emoji": "<:MI:1126356380459216906>"
+        },
+        {
+            "names": ["alejoball", "alejo"],
+            "renderedName": "Alejoball",
+            "defaultHp": 496,
+            "defaultAtk": 692,
+            "emoji": "<:AJ:1126356425195659305>"
+        },
+        {
+            "names": ["mexicoball", "mexico"],
+            "renderedName": "Mexicoball",
+            "defaultHp": 1000,
+            "defaultAtk": 250,
+            "emoji": "<:ML:1126356324385570856>"
+        },
+        {
+            "names": ["mrbfneo", "mrbfneogameryt"],
+            "renderedName": "Mr.BFNEOGAMERYT",
+            "defaultHp": 920,
+            "defaultAtk": 1020,
+            "emoji": "<:MN:1126356258727927860>"
+        },
+        {
+            "names": ["blaoland", "polonianegro"],
+            "renderedName": "Blaoland",
+            "defaultHp": 3210,
+            "defaultAtk": 2300,
+            "emoji": "<:PN:1104854321335648358>"
+        },
+        {
+            "names": ["lineheadrt", "linecrosoft", "line", "linehead"],
+            "renderedName": "Linehead RT",
+            "defaultHp": 9999,
+            "defaultAtk": 9999,
+            "emoji": "<:LR:1129654870983577673>"
+        }
+    ]
+}

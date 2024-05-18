@@ -1,0 +1,45 @@
+import fetch from "node-fetch";
+import { Reply } from "../utils/Message.js";
+import abtob from "arraybuffer-to-buffer";
+import { Readable } from "node:stream";
+import { FormData } from "form-data";
+
+export default {
+    name: "rb",
+    alias: ["quitarfondo", "removebackground"],
+    data: {
+        type: 1,
+        name: "rb",
+        description: "Quita el fondo rápidamente de una imagen (Remove Background)",
+        options: [{
+            type: 11,
+            name: "file",
+            description: "Utiliza un archivo de tu dispositivo para quitar el fondo",
+            required: false
+        }, {
+            type: 3,
+            name: "url",
+            description: "Puedes utilizar una URL para quitar el fondo",
+            required: false
+        }]
+    },
+    run: (ws, message, args) => {
+        if (
+            args.length == 0 &&
+            message.attachments.length == 0
+        ) return Reply(message, { content: ":exclamation: Debes incluir un link a la imagen o adjuntar un archivo" });
+
+        if (args.length == 0 && message.attachments.length !== 0)
+    }
+}
+
+function removebackground(attachmentURL) {
+    const arrayBuffer = await fetch(attachmentURL).then(res => res.arrayBuffer())
+
+    const tmp = new Readable();
+    tmp.push(abtob(arrayBuffer));
+    tmp.push(null);
+
+    var form = new FormData();
+    form.append("files[0]", tmp, { filename: filename });
+}

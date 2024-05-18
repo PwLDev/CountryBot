@@ -1,0 +1,82 @@
+{
+    "countryballs": [
+        {
+            "names": ["alent", "ale"],
+            "renderedName": "Alen't",
+            "defaultHp": 5725,
+            "defaultAtk": 8960,
+            "emoji": "<:AT:1108616470331670548>"
+        },
+        {
+            "names": ["alenttriangle", "alenttriangulo"],
+            "renderedName": "Alen't Triangle",
+            "defaultHp": 1750,
+            "defaultAtk": 500,
+            "emoji": "<:ATT:1108616468628787290>"
+        },
+        {
+            "names": ["alkenia", "realalent"],
+            "renderedName": "Alkenia",
+            "defaultHp": 350,
+            "defaultAtk": 700,
+            "emoji": "<:AR:1108619979852623944>"
+        },
+        {
+            "names": ["alentrectangle", "alentrectangulo"],
+            "renderedName": "Alen't Rectangle",
+            "defaultHp": 675,
+            "defaultAtk": 250,
+            "emoji": "<:ATG:1108619983203881001>"
+        },
+        {
+            "names": ["alentkingdom", "reinoalent"],
+            "renderedName": "Alen't Kingdom",
+            "defaultHp": 975,
+            "defaultAtk": 175,
+            "emoji": "<:ATK:1108616819750735872>"
+        },
+        {
+            "names": ["5dalent", "alent5d"],
+            "renderedName": "5d alen't",
+            "defaultHp": 1500,
+            "defaultAtk": 775,
+            "emoji": "<:AT5:1108616466116378644>"
+        },
+        {
+            "names": ["alentempire", "imperioalent"],
+            "renderedName": "Alen't Empire",
+            "defaultHp": 1775,
+            "defaultAtk": 475,
+            "emoji": "<:ATE:1108616464572895262>"
+        },
+        {
+            "names": ["alentssr", "sovietalent", "alentsovietico"],
+            "renderedName": "Alen't SSR",
+            "defaultHp": 2000,
+            "defaultAtk": 1000,
+            "emoji": "<:ATS:1108616462555430932>"
+        },
+        {
+            "names": ["alentangle"],
+            "renderedName": "Alentangle",
+            "defaultHp": 1,
+            "defaultAtk": 3300,
+            "emoji": "<:ATR:1108616459954950204>",
+            "notVariate": true
+        },
+        {
+            "names": ["gigalent", "gigachad", "gigaalent"],
+            "renderedName": "Gigalen't",
+            "defaultHp": 3300,
+            "defaultAtk": 770,
+            "emoji": "<:ATGG:1108616457673265212>"
+        },
+        {
+            "names": ["alentunion"],
+            "renderedName": "Alen't Union",
+            "defaultHp": 250000,
+            "defaultAtk": 200000,
+            "emoji": "<a:Alepat:1107799437725671535>"
+        }
+    ]
+}

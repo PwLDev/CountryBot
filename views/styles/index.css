@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* { font-family: "Montserrat", sans-serif; }
+body { background: #333333; }
+
+.login {
+    margin-top: 35vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login .title {
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.login .description {
+    margin-top: 1.25rem;
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.login .loginbtn {
+    display: block;
+    margin-top: 1.8rem;
+    text-decoration: none;
+    color: white;
+    background: #5865F2;
+    padding: 16px 19px;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+.profile, .labels {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    color: white
+}
+
+.labels { flex-direction: column; }
+
+.profile .pfp {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.profile * { align-self: center; margin-right: 8px }
+
+.guild {
+    width: 320px;
+    height: 100px;
+    color: white;
+    background: rgb(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.guilds {
+    display: flex; flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.guild * { margin-left: 10px; align-self: center; }
+.guild h2 { margin-right: 10px; }
+
+.guild .icon {
+    border-radius: 20px;
+    height: 60px;
+    margin-left: 0;
+}
+
+.guild .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+div.guild:has(div.buttons) {
+    padding-bottom: 30px;
+}
+
+div.guild:has(div.buttons) .buttons * {
+    margin-top: 5px;
+    width: 250px;
+    margin-left: 0;
+    margin-right: 5px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.invite { background: #5865F2; color: white; cursor: pointer }
+.guildedit { background: #60f36a; color: black; cursor: pointer }
+
+.contextmenu {
+    visibility: hidden;
+    position: absolute;
+    background: rgb(100, 100, 100);
+    position: absolute;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: left;
+    transition: ease 250ms;
+}
+
+.contextmenu li {
+    width: 150px;
+    list-style-type: none;
+    color: white;
+    align-self: center;
+    transition: ease 250ms;
+    padding: 10px;
+    margin: 0px
+}   
+
+.contextmenu li * { margin: 3px; }
+
+.contextmenu li:hover { background-color: rgb(0, 0, 0, .5); }
+
+.overlay {
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.loading {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loading * {
+    display: flex;
+    align-items: center;
+}
+
+#container { display: none; }
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 50px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0); 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white; 
+    width: 7px;
+    border-radius: 50px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard | CountryBot</title>
+        <link rel="icon" type="image/x-icon" href="./assets/profile.ico"/>
+        <link rel="stylesheet" href="./styles/index.css"/>
+        <script src="./scripts/context.js"></script>
+        <script src="./scripts/guilds.js"></script>
+    </head>
+    <body>
+        <div class="overlay" id="loading">
+            <div class="loading">
+                <img src="./assets/loading.gif">
+                <h2>Cargando...</h2>
+            </div>
+        </div>
+        <div id="container">
+            <div class="profile">
+                <img class="pfp" id="pfp" src="{user.avatarURL}">
+                <div class="labels">
+                    <h2 style="margin: 0;">Bienvenido de nuevo, {user.username}</h2>
+                    <p style="margin: 0">¿Qué deseas hacer hoy? Selecciona un servidor</p>
+                </div>
+            </div>
+            <h2 style="margin-left: 40px; color: white;">Selecciona un servidor</h2>
+            <div id="guilds" class="guilds">
+
+            </div>
+    
+            <ul class="contextmenu" id="usercontext">
+                <li class="first">Cerrar sesión</li>
+            </ul>
+            <footer>
+                <p>© 2022 PwLDev</p>
+            </footer>
+        </div>
+    </body>
+</html>

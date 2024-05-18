@@ -1,0 +1,11 @@
+.env
+.DS_Store
+node_modules
+config.json
+countrydex/config.json
+countrydex/owns.json
+countrydex/triggers.json
+countrydex/spawns.json
+countrydex/owns-backup.json
+assets/countrydex/cards.zip
+assets/countrydex/spawn.zip

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard | CountryBot</title>
+        <link rel="icon" type="image/x-icon" href="../../assets/profile.ico"/>
+        <link rel="stylesheet" href="../../styles/index.css"/>
+        <script src="../../scripts/edit.js"></script>
+    </head>
+    <body>
+        <div class="overlay" id="loading">
+            <div class="loading">
+                <img src="../../assets/loading.gif">
+                <h2>Cargando...</h2>
+            </div>
+        </div>
+        <div id="container">
+            <div class="profile">
+                <h1 onclick="window.location = '/dashboard'" style="cursor: pointer;">❮</h1>
+                <img class="pfp" id="pfp" src="{guild.iconURL}">
+                <div class="labels">
+                    <h2 style="margin: 0;">{guild.name}</h2>
+                    <p style="margin: 0">Editar servidor</p>
+                </div>
+            </div>
+            <div style="margin-left: 25px;">
+                <h4 style="color: white">Countrydex</h4>
+            </div>
+        </div>
+    </body>
+</html>

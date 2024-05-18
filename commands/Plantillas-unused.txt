@@ -1,0 +1,61 @@
+import { SendFile, Reply } from "../utils/Message.js";
+import { IntReplyFile } from "../utils/Interactions.js";
+import path from "node:path";
+import fs from "fs"
+
+export default {
+    name: "template",
+    alias: ["plantilla", "tmp"],
+    category: "",
+    description: "Configura a CountryBot",
+    args: true,
+    usage: "<plantilla> (cubo, circulo)",
+    data: {
+        type: 1,
+        name: "template",
+        description: "¿Necesitas ayuda para dibujar Countryballs? Aquí tienes algunas plantillas.",
+        options: [{
+            type: 1,
+            name: "cube",
+            description: "Plantilla de cubo"
+        }, {
+            type: 1,
+            name: "circle",
+            description: "Plantilla de círculo"
+        }]
+    },
+    // Comando de mensaje
+    run: (ws, message, args) => {
+        if (args.length == 0) return Reply(message, { embeds: [{
+            color: 0xcc0000,
+            author: { name: "CountryBot", icon_url: ws.avatarURL },
+            footer: { text: `Solicitado por ${message.author.username}`, icon_url: ws.getAvatarURL(message.author) },
+            description: ":x: No ingresaste qué tipo de plantilla deseas.\nPlantillas disponibles: `cubo`, `circulo`"
+        }] });
+
+        const query = args[0].replace("í", "i");
+
+        if (
+            query !== "circulo" &&
+            query !== "circle" &&
+            query !== "cube" &&
+            query !== "cubo"
+        ) return Reply(message, { embeds: [{
+            color: 0xcc0000,
+            author: { name: "CountryBot", icon_url: ws.avatarURL },
+            footer: { text: `Solicitado por ${message.author.username}`, icon_url: ws.getAvatarURL(message.author) },
+            description: ":x: No ingresaste una plantilla válida.\nPlantillas disponibles: `cubo`, `circulo`"
+        }] });
+
+        if (query === "circulo" || query === "circle") return SendFile(message, fs.readFileSync(path.resolve("./assets/templates/circulo.png")), "circulo.png", { content: "Plantilla hecha por Alen't", attachments: [{ id: 0, filename: "circulo.png", url: "attachment://circulo.png" }], message_reference: { message_id: message.id, channel_id: message.channel_id }});
+        if (query === "cubo" || query === "cube") return SendFile(message, fs.readFileSync(path.resolve("./assets/templates/cubo.png")), "cubo.png", { content: "Plantilla hecha por Alen't", attachments: [{ id: 0, filename: "cubo.png", url: "attachment://cubo.png" }], message_reference: { message_id: message.id, channel_id: message.channel_id } });
+    },
+    // Slash commands
+    runSlash: (ws, interaction) => {
+        const query = interaction.data.options[0].name;
+        console.log(query)
+
+        if (query === "circle") return IntReplyFile(interaction, fs.readFileSync(path.resolve("./assets/templates/circulo.png")), "circulo.png", { content: "Plantilla hecha por Alen't", attachments: [{ id: 0, filename: "circulo.png", url: "attachment://circulo.png" }] });
+        if (query === "cube") return IntReplyFile(interaction, fs.readFileSync(path.resolve("./assets/templates/cubo.png")), "cubo.png", { content: "Plantilla hecha por Alen't", attachments: [{ id: 0, filename: "cubo.png", url: "attachment://cubo.png" }] });
+    }
+}
